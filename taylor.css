@@ -1,0 +1,32 @@
+body {
+
+    background-color: #E0CABD;
+    margin: 0px;
+    color: rgb(204, 194, 189);
+    background-image: url("fall.jpg");
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+header {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    /* Ativa o Flexbox */
+    gap: 100px;
+    /* Cria um espaço entre a imagem e o texto */
+}
+
+.minha-imagem {
+    /* Define o tamanho da imagem */
+    position: 30% 20%;
+    position: right;
+    width: 10%;
+    padding: 50px;
+}
+
+.topo {
+    text-align: center;
+}
